@@ -5,7 +5,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
 
-<http://purl.org/ske/iswc17> a ro:ResearchObject,
+<http://purl.org/ske/semSci17> a ro:ResearchObject,
         ore:Aggregation;
     dc:abstract """The published scientific literature is an unstructured, specialized, heterogeneous document repository of mixed formatting that summarizes
 		 human scientific knowledge. Research into `machine reading' of scientific attempts to convert the knowledge locked into these documents into to a structured
