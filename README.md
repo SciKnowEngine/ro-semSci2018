@@ -1,4 +1,6 @@
-# Research Object for Burns, et al (2018) "Towards Evidence Extraction: Analysis of Scientific Figures from Studies of Molecular Interactions" SemSci Workshop 2018. 
+# Research Object 
+
+Burns, et al (2018) "Towards Evidence Extraction: Analysis of Scientific Figures from Studies of Molecular Interactions" SemSci Workshop 2018. 
 
 See https://semsci.github.io/SemSci2018/. 
 
