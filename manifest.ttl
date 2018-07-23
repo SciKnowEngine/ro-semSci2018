@@ -1,9 +1,13 @@
+@prefix : <http://purl.org/ske/ro/semsci18> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix ore: <http://www.openarchives.org/ore/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix ro: <http://purl.org/wf4ever/ro#> .
 @prefix schema: <http://schema.org/> .
 @prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+:manifest.ttl a ro:Manifest;
+	ore:describes <http://purl.org/ske/ro/semsci18> .
 
 <http://purl.org/ske/ro/semsci18> a ro:ResearchObject,
         ore:Aggregation;
@@ -13,16 +17,18 @@
     schema:creator <https://orcid.org/0000-0003-1493-865X>;
     schema:name "Research Object for Burns et al (2018) 'Towards Evidence Extraction : Analysis of Scientific Figures from Studies of Molecular Interactions', SemSci2018 Workshop.";
     ore:aggregates <https://github.com/SciKnowEngine/evidX/releases/tag/v0.1.0>,
-        <https://doi.org/10.5281/zenodo.1315036>,
-        <https://doi.org/10.5281/zenodo.13150211>,
         <https://github.com/SciKnowEngine/UimaBioC>,
-        <https://github.com/SciKnowEngine/lapdftext>; 
-    ore:isDescribedBy <http://purl.org/ske/ro/semsci18>;
+        <https://github.com/SciKnowEngine/lapdftext>, 
+        <https://doi.org/10.5281/zenodo.1319051>,
+        <https://doi.org/10.5281/zenodo.1315036>,
+        <https://doi.org/10.5281/zenodo.13150211>;
+    ore:isDescribedBy :manifest.ttl;
     dc:license <https://creativecommons.org/licenses/by/4.0/>;
     prov:wasAttributedTo <https://orcid.org/0000-0003-1493-865X>.
 
 <https://github.com/SciKnowEngine/evidX/releases/tag/v0.1.0> a ro:Resource .
-<https://doi.org/10.5281/zenodo.1315036> a ro:Resource .
-<https://doi.org/10.5281/zenodo.13150211> a ro:Resource .
 <https://github.com/SciKnowEngine/UimaBioC> a ro:Resource .
 <https://github.com/SciKnowEngine/lapdftext> a ro:Resource .
+<https://doi.org/10.5281/zenodo.1315036> a ro:Resource .
+<https://doi.org/10.5281/zenodo.13150211> a ro:Resource .
+<https://doi.org/10.5281/zenodo.1319051> a ro:Resource .
