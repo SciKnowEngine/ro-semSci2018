@@ -21,5 +21,5 @@ The [manifest.ttl](manifest.ttl) file provides linked data for the resources (so
   * Word Embeddings for neural net classifiers extracted from PMC open access papers. 
 * [<https://doi.org/10.5281/zenodo.13150211>](https://doi.org/10.5281/zenodo.13150211) - 'Method Classification of Open Access INTACT Molecular Interaction data.'
   * Training / Testign data for the caption classification task. 
-* [<https://doi.org/10.5281/zenodo.1319051>](https://doi.org/10.5281/zenodo.1319051) - 'Partitioned Image Data for Machine Learning Analysis of Molecular Biology Figures'
+* [<https://doi.org/10.5281/zenodo.1319198>](https://doi.org/10.5281/zenodo.1319198) - 'Partitioned Image Data for Machine Learning Analysis of Molecular Biology Figures'
   * Scientific figure image data used for classification experiments. 
