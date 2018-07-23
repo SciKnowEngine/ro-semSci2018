@@ -19,7 +19,7 @@
     ore:aggregates <https://github.com/SciKnowEngine/evidX/releases/tag/v0.1.0>,
         <https://github.com/SciKnowEngine/UimaBioC>,
         <https://github.com/SciKnowEngine/lapdftext>, 
-        <https://doi.org/10.5281/zenodo.1319051>,
+        <https://doi.org/10.5281/zenodo.1319198>,
         <https://doi.org/10.5281/zenodo.1315036>,
         <https://doi.org/10.5281/zenodo.13150211>;
     ore:isDescribedBy :manifest.ttl;
@@ -31,4 +31,4 @@
 <https://github.com/SciKnowEngine/lapdftext> a ro:Resource .
 <https://doi.org/10.5281/zenodo.1315036> a ro:Resource .
 <https://doi.org/10.5281/zenodo.13150211> a ro:Resource .
-<https://doi.org/10.5281/zenodo.1319051> a ro:Resource .
+<https://doi.org/10.5281/zenodo.1319198> a ro:Resource .
