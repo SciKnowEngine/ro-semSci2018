@@ -9,11 +9,17 @@ The [manifest.ttl](manifest.ttl) file provides linked data for the resources (so
 ## Software
 
 * [<https://github.com/SciKnowEngine/evidX/releases/tag/v0.1.0>](https://github.com/SciKnowEngine/evidX/releases/tag/v0.1.0) - Simple TensorFlow Classifiers used to classify text of subfigure captions by method type.
+  * Implementation of Tensorflow classifiers used to classify subcaption text for molecular interaction experiments based on method types. 
 * [<https://github.com/SciKnowEngine/UimaBioC>](https://github.com/SciKnowEngine/UimaBioC) - Text preprocessing pipelines
+  * Text preprocessing pipelines used to generate word embedding text. 
 * [<https://github.com/SciKnowEngine/lapdftext>](https://github.com/SciKnowEngine/lapdftext) - PDF image and text extraction tools
+  * Image preprocessing pipelines used to extract whole figures from the pages of PDF files. 
 
 # Data
 
 * [<https://doi.org/10.5281/zenodo.1315036>](https://doi.org/10.5281/zenodo.1315036) - 'Molecular Biology Open Access Pubmed Word and Sentence Representations'
+  * Word Embeddings for neural net classifiers extracted from PMC open access papers. 
 * [<https://doi.org/10.5281/zenodo.13150211>](https://doi.org/10.5281/zenodo.13150211) - 'Method Classification of Open Access INTACT Molecular Interaction data.'
+  * Training / Testign data for the caption classification task. 
 * [<https://doi.org/10.5281/zenodo.1319051>](https://doi.org/10.5281/zenodo.1319051) - 'Partitioned Image Data for Machine Learning Analysis of Molecular Biology Figures'
+  * Scientific figure image data used for classification experiments. 
